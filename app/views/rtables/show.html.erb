@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @rtable.name %>
+</p>
+
+<p>
+  <strong>Min guest:</strong>
+  <%= @rtable.min_guest %>
+</p>
+
+<p>
+  <strong>Max guest:</strong>
+  <%= @rtable.max_guest %>
+</p>
+
+<%= link_to 'Edit', edit_rtable_path(@rtable) %> |
+<%= link_to 'Back', rtables_path %>

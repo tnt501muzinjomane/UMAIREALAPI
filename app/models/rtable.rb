@@ -1,0 +1,2 @@
+class Rtable < ApplicationRecord
+end
